@@ -1,6 +1,6 @@
-# Product Dashboard Starter
+# Demo Product Dashboard Starter
 
-A starter project focused on product dashboard, built with Next.js.
+A Next.js store-admin dashboard that fetches a hard-coded apparel catalog from an API and links to add, update, and delete product forms.
 
 ## Use this template
 
@@ -10,7 +10,7 @@ npx create-next-app -e https://github.com/colbyfayock/demo-product-dashboard-sta
 
 ## Local setup
 
-Install dependencies with yarn and start the development server:
+Install dependencies with yarn, then start the development server:
 
 ```bash
 yarn install
@@ -19,5 +19,5 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) to view the app.
 
-Use `yarn build` to build the project.
-Use `yarn start` to run the production build.
+Use `yarn build` to create a production build.
+After building, use `yarn start` to serve the production build.
